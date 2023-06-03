@@ -1,0 +1,24 @@
+{
+  "name": "fireglobalchallenge",
+  "version": "1.0.0",
+  "description": "New Fire Global Challenge",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open .",
+    "cypress:run": "cypress run ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanmartin90/FireGlobalChallenge.git"
+  },
+  "author": "Marcelo Bordolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msanmartin90/FireGlobalChallenge/issues"
+  },
+  "homepage": "https://github.com/msanmartin90/FireGlobalChallenge#readme",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "typescript": "^5.1.3"
+  }
+}
