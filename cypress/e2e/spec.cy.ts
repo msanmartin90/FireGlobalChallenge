@@ -8,7 +8,6 @@ describe("Amazon E2E Tests", () => {
     cy.visit("/")
   })
 
-
   products.forEach(product => {
     const {name, price} = product
     
