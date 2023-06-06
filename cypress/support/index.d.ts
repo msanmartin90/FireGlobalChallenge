@@ -1,5 +1,5 @@
 declare namespace Cypress {
   interface Chainable {
-    findLatAndLong(place: string): Chainable<string>
+    getResultItemByName(itemName: string): Chainable<JQuery<HTMLElement>>
   }
 }
